@@ -1,1 +1,1 @@
-# VYINESoft.Yip.github.io
+# VYINESoft.github.io
