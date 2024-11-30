@@ -7,54 +7,10 @@
     <title>Smart Home Products</title>
     <link rel="stylesheet" href="path/to/your/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
-        .navbar {
-            background-color: #f8f9fa;
-        }
-        .navbar-brand {
-            font-weight: bold;
-            color: #007bff;
-        }
-        .section-title {
-            margin-bottom: 50px;
-            text-align: center;
-        }
-        .section-title h1 {
-            font-size: 2.5rem;
-            color: #007bff;
-        }
-        .product-item {
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-        .product-item:hover {
-            transform: scale(1.05);
-        }
-        .product-item img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-        .product-item h5 {
-            color: #007bff;
-            margin-top: 15px;
-        }
-        footer {
-            background-color: #f8f9fa;
-            text-align: center;
-            padding: 15px 0;
-        }
-    </style>
 </head>
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light p-3">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light p-3">
         <a class="navbar-brand" href="#">VYINESoft</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
@@ -67,63 +23,69 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Products Details Start -->
-    <div class="container-fluid py-5">
+    <!-- Products Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="section-title">
-                <h5 class="fw-bold text-primary text-uppercase">Smart Home Products</h5>
-                <h1 class="mb-0">Explore Our Innovative Devices</h1>
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Products</h5>
+                <h1 class="mb-0">Smart Home Devices</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
-                    <div class="product-item">
-                        <img src="img/smart-bulb.jpg" alt="Smart Bulb">
-                        <h5 class="mb-1">Smart Bulb</h5>
-                        <p>Our smart bulb offers customizable lighting options that can be controlled remotely via an app. Enjoy energy savings and the ability to adjust brightness and color to suit your mood.</p>
+                    <div class="product-item bg-light rounded text-center p-4">
+                        <img class="img-fluid mb-3" src="img/smart-bulb.jpg" alt="Smart Bulb" style="width: 100%; height: auto;">
+                        <h5 class="text-primary mb-1">Smart Bulb</h5>
+                        <p>Energy-efficient smart bulb with remote control functionality.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="product-bulb.html">View Details</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="product-item">
-                        <img src="img/smart-plug.jpg" alt="Smart Plug">
-                        <h5 class="mb-1">Smart Plug</h5>
-                        <p>The smart plug allows you to control your devices from anywhere. Schedule on/off times, monitor energy usage, and integrate with your smart home system.</p>
+                    <div class="product-item bg-light rounded text-center p-4">
+                        <img class="img-fluid mb-3" src="img/smart-plug.jpg" alt="Smart Plug" style="width: 100%; height: auto;">
+                        <h5 class="text-primary mb-1">Smart Plug</h5>
+                        <p>Control your devices remotely and schedule operations.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="product-plug.html">View Details</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="product-item">
-                        <img src="img/smart-camera.jpg" alt="Smart Camera">
-                        <h5 class="mb-1">Smart Camera</h5>
-                        <p>Keep your home secure with our smart camera. Features include HD video streaming, night vision, and motion detection alerts, all accessible from your smartphone.</p>
+                    <div class="product-item bg-light rounded text-center p-4">
+                        <img class="img-fluid mb-3" src="img/smart-camera.jpg" alt="Smart Camera" style="width: 100%; height: auto;">
+                        <h5 class="text-primary mb-1">Smart Camera</h5>
+                        <p>Keep an eye on your home with HD video streaming.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="product-camera.html">View Details</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="product-item">
-                        <img src="img/smart-thermostat.jpg" alt="Smart Thermostat">
-                        <h5 class="mb-1">Smart Thermostat</h5>
-                        <p>Optimize your home’s temperature with our smart thermostat. It learns your habits and adjusts to save energy while keeping you comfortable.</p>
+                    <div class="product-item bg-light rounded text-center p-4">
+                        <img class="img-fluid mb-3" src="img/smart-thermostat.jpg" alt="Smart Thermostat" style="width: 100%; height: auto;">
+                        <h5 class="text-primary mb-1">Smart Thermostat</h5>
+                        <p>Optimize your heating and cooling with intelligent scheduling.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="product-thermostat.html">View Details</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="product-item">
-                        <img src="img/smart-lock.jpg" alt="Smart Lock">
-                        <h5 class="mb-1">Smart Lock</h5>
-                        <p>Enhance your home security with our smart lock. Keyless entry, remote management, and access logs ensure your home is safe and accessible only to you.</p>
+                    <div class="product-item bg-light rounded text-center p-4">
+                        <img class="img-fluid mb-3" src="img/smart-lock.jpg" alt="Smart Lock" style="width: 100%; height: auto;">
+                        <h5 class="text-primary mb-1">Smart Lock</h5>
+                        <p>Secure your home with keyless entry and remote access.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="product-lock.html">View Details</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="product-item">
-                        <img src="img/smart-speaker.jpg" alt="Smart Speaker">
-                        <h5 class="mb-1">Smart Speaker</h5>
-                        <p>Enjoy music, control your smart home devices with voice commands, and get information with our smart speaker. It’s your personal assistant for a connected lifestyle.</p>
+                    <div class="product-item bg-light rounded text-center p-4">
+                        <img class="img-fluid mb-3" src="img/smart-speaker.jpg" alt="Smart Speaker" style="width: 100%; height: auto;">
+                        <h5 class="text-primary mb-1">Smart Speaker</h5>
+                        <p>Enjoy music and control your smart home with voice commands.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="product-speaker.html">View Details</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Products Details End -->
+    <!-- Products End -->
 
     <!-- Footer Start -->
-    <footer>
+    <footer class="bg-light text-center py-4">
         <p class="m-0">© 2023 VYINESoft. All Rights Reserved.</p>
     </footer>
     <!-- Footer End -->
